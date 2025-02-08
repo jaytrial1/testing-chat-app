@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatBot - Sign Up</title>
+    <link rel="stylesheet" href="auth.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-box">
+            <div class="auth-header">
+                <i class="fas fa-robot"></i>
+                <h1>Create Account</h1>
+                <p>Sign up to start using ChatBot</p>
+            </div>
+            
+            <form class="auth-form">
+                <div class="form-group">
+                    <label><i class="fas fa-user"></i> Full Name</label>
+                    <input type="text" placeholder="Enter your full name">
+                </div>
+
+                <div class="form-group">
+                    <label><i class="fas fa-envelope"></i> Email</label>
+                    <input type="email" placeholder="Enter your email">
+                </div>
+                
+                <div class="form-group">
+                    <label for="grade-level">
+                        <i class="fas fa-graduation-cap"></i>
+                        Grade Level
+                    </label>
+                    <select class="form-input" id="grade-level" name="grade-level">
+                        <option value="freshman">Freshman</option>
+                        <option value="sophomore">Sophomore</option>
+                        <option value="junior">Junior</option>
+                        <option value="senior">Senior</option>
+                        <option value="graduate">Graduate</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label><i class="fas fa-lock"></i> Password</label>
+                    <input type="password" placeholder="Create a password">
+                </div>
+                
+                <div class="form-group">
+                    <label><i class="fas fa-lock"></i> Confirm Password</label>
+                    <input type="password" placeholder="Confirm your password">
+                </div>
+
+                <button type="submit" class="auth-button">
+                    <i class="fas fa-user-plus"></i> Sign Up
+                </button>
+            </form>
+            
+            <div class="auth-footer">
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
